@@ -7,15 +7,15 @@ personality traits along with a scoring system to categorize users by their
 Tweets. Our project will utilize third party libraries for Python such as Pandas
 with the possibility of NLP and machine learning libraries if need be.
 
-### Goals
 ---------
+### Goals
 
 1. Determine relationship between personality and keywords from Tweets.
 2. Determine scoring system for rating personality.
 3. Display results in readable manner.
 
-### Specifications
 ------------------
+### Specifications
 
 The purpose of this project is to determine personality traits based on Tweets
 made by a given user. This will require us to identify keywords that relate to
@@ -41,5 +41,6 @@ Previous research has been conducted on this topic which we will use to help
 determine how accurate our own findings are. 
 
 
+----------
 ## Authors
 Greg Anderson, Umair Naveed, Jesus Zarate
