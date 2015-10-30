@@ -5,8 +5,15 @@ filename = 'output.txt'
 sqlContext = SQLContext(sc)
 f = sqlContext.jsonFile(filename)
 
+# List of categories
 narcissism = set(['i', 'i\'m', 'me', 'my', 'mine', 'we', 'our', 'ours', 'we\'re'])
 neuroticism = set(['scared', 'worried', 'frustrated'])
+agreeableness = set(['agree', 'agreed', 'love', 'feel', 'i thought of you', 'you have my sympathy', 'i feel for you', 'donated'])
+extraversion = set(['party', 'going out', 'people'])
+openness_to_experience = set(['new', 'experience'])
+conscientiousness = set(['vigilant', 'careful', 'efficient', 'organize', 'organized', 'achieve', 'achievement', 'award', 'plan', 'planned', 'depend', 'dependable'])
+machiavellianism = set(['i don\'t care', 'your fault', 'mine', 'who cares', 'dui', 'dwi', 'prison', 'jail', 'illegal'])
+psycopathy = set(['Crazy', 'not my fault', 'no remorse', 'crime', 'irresponsible'])
 
 # Take a tweet and map the user to a list of points
 def split_words(s, words):
