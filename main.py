@@ -5,4 +5,5 @@ filename = 'output.txt'
 sqlContext = SQLContext(sc)
 f = sqlContext.jsonFile(filename)
 
-f.first().asDict()
+a = f.map(lambda x: x.asDict())
+b = a.filter(lambda x: x['text'] != None)
