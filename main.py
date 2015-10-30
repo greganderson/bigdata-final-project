@@ -23,6 +23,10 @@ def split_words(s, words):
 a = f.map(lambda x: x.asDict())					# Turn JSON output into dictionary
 b = a.filter(lambda x: x['text'] != None)		# Filter out non-tweets
 
+### 
+### TODO This code just needs to be repeated for each category.  Not sure how to do that yet though
+###	
+
 # Narcissism
 c = b.map(lambda x: split_words(x, narcissism))	# Map user to a list of points for each tweet
 d = c.map(lambda lst: (lst[0], reduce(lambda x, y: x+y, lst[1])))	# Add up points for each tweet
