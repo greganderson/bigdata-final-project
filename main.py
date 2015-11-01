@@ -15,6 +15,8 @@ conscientiousness = set(['vigilant', 'careful', 'efficient', 'organize', 'organi
 machiavellianism = set(['i don\'t care', 'your fault', 'mine', 'who cares', 'dui', 'dwi', 'prison', 'jail', 'illegal'])
 psycopathy = set(['Crazy', 'not my fault', 'no remorse', 'crime', 'irresponsible'])
 
+categories = [narcissism, neuroticism, agreeableness, extraversion, openness_to_experience, conscientiousness, psycopathy]
+
 # Take a tweet and map the user to a list of points
 def split_words(s, words):
 	word_list = s['text'].split(' ')
@@ -31,4 +33,12 @@ b = a.filter(lambda x: x['text'] != None)		# Filter out non-tweets
 c = b.map(lambda x: split_words(x, narcissism))	# Map user to a list of points for each tweet
 d = c.map(lambda lst: (lst[0], reduce(lambda x, y: x+y, lst[1])))	# Add up points for each tweet
 e = d.reduceByKey(lambda x, y: x+y)				# Gather all of the scores for each user
-g = e.filter(lambda x: x[1] > 0)				# Show only those that had more points than 3
+g = e.filter(lambda x: x[1] > 3)				# Show only those that had more points than 3
+
+### In the works
+for category in categories:
+	c = b.map(lambda x: split_words(x, categories))	# Map user to a list of points for each tweet
+	d = c.map(lambda lst: (lst[0], reduce(lambda x, y: x+y, lst[1])))	# Add up points for each tweet
+	e = d.reduceByKey(lambda x, y: x+y)				# Gather all of the scores for each user
+	g = e.filter(lambda x: x[1] > 3)				# Show only those that had more points than 3
+	
