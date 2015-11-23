@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pesonality_scores>
+  <entry>
+    <category>Total pronouns</category>
+    <abbrev>pronoun</abbrev>
+    <ratings>
+      <Na>-0.043</Na>
+      <Ma>0.016</Ma>
+      <Ps>-0.023</Ps>
+      <Op>-0.027</Op>
+      <Co>-0.100</Co>
+      <Ex>-0.004</Ex>
+      <Ag>-0.003</Ag>
+      <Ne>-0.142</Ne>
+    </ratings>
+    <keywords>
+      I, them, itself, I'm
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Personal pronouns</category>
+    <abbrev>ppron</abbrev>
+    <ratings>
+      <Na>-0.021</Na>
+      <Ma>0.021</Ma>
+      <Ps>-0.017</Ps>
+      <Op>-0.016</Op>
+      <Co>-0.092</Co>
+      <Ex>0.022</Ex>
+      <Ag>0.013</Ag>
+      <Ne>-0.145</Ne>
+    </ratings>
+    <keywords>
+      I, me, you, he, him, she, her, it, we, us, they, them
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>1st pers singular</category>
+    <abbrev>i</abbrev>
+    <ratings>
+      <Na>-0.017</Na>
+      <Ma>0.050</Ma>
+      <Ps>-0.001</Ps>
+      <Op>-0.011</Op>
+      <Co>-0.116</Co>
+      <Ex>-0.028</Ex>
+      <Ag>-0.023</Ag>
+      <Ne>-0.171</Ne>
+    </ratings>
+    <keywords>
+      I, me, mine, my
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>1st pers plural</category>
+    <abbrev>we</abbrev>
+    <ratings>
+      <Na>0.036</Na>
+      <Ma>-0.070</Ma>
+      <Ps>-0.071</Ps>
+      <Op>-0.006</Op>
+      <Co>0.052</Co>
+      <Ex>0.063</Ex>
+      <Ag>0.068</Ag>
+      <Ne>0.044</Ne>
+    </ratings>
+    <keywords>
+      We, us, our, ours
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Impersonal pronouns</category>
+    <abbrev>ipron</abbrev>
+    <ratings>
+      <Na>-0.077</Na>
+      <Ma>0.008</Ma>
+      <Ps>-0.033</Ps>
+      <Op>-0.051</Op>
+      <Co>-0.099</Co>
+      <Ex>-0.060</Ex>
+      <Ag>-0.035</Ag>
+      <Ne>-0.115</Ne>
+    </ratings>
+    <keywords>
+      It, it’s, those
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>[Common verbs]</category>
+    <abbrev>verb</abbrev>
+    <ratings>
+      <Na>-0.084</Na>
+      <Ma>0.014</Ma>
+      <Ps>-0.028</Ps>
+      <Op>-0.083</Op>
+      <Co>-0.071</Co>
+      <Ex>-0.013</Ex>
+      <Ag>0.002</Ag>
+      <Ne>-0.132</Ne>
+    </ratings>
+    <keywords>
+      accept, care, could, enjoy, happen, lead, open, reduce, settle, teach, account, carry, count, examine, hate, learn, order, refer, shake, tell, achieve, catch, cover, exist, have, leave, ought, reflect, shall, tend, act, cause, create, expect, head, lend, own, refuse, share, test, add, change, cross, experience, hear, let, pass, regard, shoot, thank, admit, charge, cry, explain, help, lie, pay, relate, should, think, affect, check, cut, express, hide, like, perform, release, shout, throw, afford, choose, damage, extend, hit, limit, pick, remain, show, touch, agree, claim, dance, face, hold, link, place, remember, shut, train, aim, clean, deal, fail, hope, listen, plan, remove, sing, travel, allow, clear, decide, fall, hurt, live, play, repeat, sit, treat, answer, climb, deliver, fasten, identify, look, point, replace, sleep, try, appear, close, demand, feed, imagine, lose, prefer, reply, smile, turn, apply, collect, deny, feel, improve, love, prepare, report, sort, understand, argue, come, depend, fight, include, make, present, represent, sound, use, arrange, commit, describe, fill, increase, manage, press, require, speak, used to, arrive, compare, design, find, indicate, mark, prevent, rest, stand, visit, ask, complain, destroy, finish, influence, matter, produce, result, start, vote, attack, complete, develop, fit, inform, may, promise, return, state, wait, avoid, concern, die, fly, intend, mean, protect, reveal, stay, walk, base, confirm, disappear, fold, introduce, measure, prove, ring, stick, want, be, connect, discover, follow, invite, meet, provide, rise, stop, warn, beat, consider, discuss, force, involve, mention, publish, roll, study, wash, become, consist, divide, forget, join, might, pull, run, succeed, watch, begin, contact, do, forgive, jump, mind, push, save, suffer, wear, believe, contain, draw, form, keep, miss, put, say, suggest, will, belong, continue, dress, found, kick, move, raise, see, suit, win, break, contribute, drink, gain, kill, must, reach, seem, supply, wish, build, control, drive, get, knock, need, read, sell, support, wonder, burn, cook, drop, give, know, notice, realize, send, suppose, work, buy, copy, eat, go, last, obtain, receive, separate, survive, worry, call, correct, enable, grow, laugh, occur, recognize, serve, take, would, can, cost, encourage, handle, lay, offer, record, set, talk, write, end
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Auxiliary verbs</category>
+    <abbrev>auxverb</abbrev>
+    <ratings>
+      <Na>-0.078</Na>
+      <Ma>0.025</Ma>
+      <Ps>-0.018</Ps>
+      <Op>-0.074</Op>
+      <Co>-0.098</Co>
+      <Ex>-0.021</Ex>
+      <Ag>-0.021</Ag>
+      <Ne>-0.131</Ne>
+    </ratings>
+    <keywords>
+      do, does, did, has, have, had, is, am, are, was, were, be, being, been, may, must, might, should, could, would, shall, will, can
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Past tense</category>
+    <abbrev>past</abbrev>
+    <ratings>
+      <Na>-0.069</Na>
+      <Ma>-0.003</Ma>
+      <Ps>-0.040</Ps>
+      <Op>-0.066</Op>
+      <Co>-0.051</Co>
+      <Ex>0.001</Ex>
+      <Ag>0.000</Ag>
+      <Ne>-0.074</Ne>
+    </ratings>
+    <keywords>
+was, were , bore, beat, began, bit, blew, broadcast, broke, brought, built, burnt, bought, could, caught, chose, came, cost, cut, did, drew, dreamt, drank, drove, ate, fell, fed, felt, fought, found, flew, forgot, froze, got, gave, went, grew, hung, had, heard, hid, hit, held, hurt, kept, knew, led, learnt, left, lent, let, lay, lost, made, meant, met, paid, put, read, rode, rang, rose, ran, said, saw, sold, sent, set, shot, showed, shut, sang, sat, slept, smelt, spoke, spent, stood, stole, stuck, swam, took, taught, told, thought, threw, woke, wore, won, wrote
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Present tense</category>
+    <abbrev>present</abbrev>
+    <ratings>
+      <Na>-0.068</Na>
+      <Ma>0.017</Ma>
+      <Ps>-0.024</Ps>
+      <Op>-0.061</Op>
+      <Co>-0.071</Co>
+      <Ex>-0.002</Ex>
+      <Ag>0.002</Ag>
+      <Ne>-0.140</Ne>
+    </ratings>
+    <keywords>
+be, bear, beat, begin, bite, blow, broadcast, break, bring, build, burn, buy, can, catch, choose, come, cost, cut, do, draw, dream, drink, drive, eat, fall, feed, feel, fight, find, fly, forget, freeze, get, give, go, grow, hang, have, hear, hide, hit, hold, hurt, keep, know
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Adverbs</category>
+    <abbrev>adverb</abbrev>
+    <ratings>
+      <Na>-0.088</Na>
+      <Ma>0.026</Ma>
+      <Ps>-0.035</Ps>
+      <Op>-0.077</Op>
+      <Co>-0.071</Co>
+      <Ex>-0.034</Ex>
+      <Ag>-0.022</Ag>
+      <Ne>-0.119</Ne>
+    </ratings>
+    <keywords>
+      abnormally, absentmindedly, accidentally, actually, adventurously, afterwards, almost, always, annually, anxiously, arrogantly, awkwardly, bashfully, beautifully, bitterly, bleakly, blindly, blissfully, boastfully, boldly, bravely, briefly, brightly, briskly, broadly, busily, calmly, carefully, carelessly, cautiously, certainly, cheerfully, clearly, cleverly, closely, coaxingly, colorfully, commonly, continually, coolly, correctly, courageously, crossly, cruelly, curiously, daily, daintily, dearly, deceivingly, deeply, defiantly, deliberately, delightfully, diligently, dimly, doubtfully, dreamily, easily, elegantly, energetically, enormously, enthusiastically, equally, especially, even, evenly, eventually, exactly, excitedly, extremely, fairly, faithfully, famously, far, fast, fatally, ferociously, fervently, fiercely, fondly, foolishly, fortunately, frankly, frantically, freely, frenetically, frightfully, fully, furiously, generally, generously, gently, gladly, gleefully, gracefully, gratefully, greatly, greedily, happily, hastily, healthily, heavily, helpfully, helplessly, highly, honestly, hopelessly, hourly, hungrily, immediately, innocently, inquisitively, instantly, intensely, intently, interestingly, inwardly, irritably, jaggedly, jealously, jovially, joyfully, joyously, jubilantly, judgmentally, justly, keenly, kiddingly, kindheartedly, kindly, knavishly, knowingly, knowledgeably, kookily, lazily, les, lightly, likely, limply, lively, loftily, longingly, loosely, loudly, lovingly, loyally, madly, majestically, meaningfully, mechanically, merrily, miserably, mockingly, monthly, more, mortally, mostly, mysteriously, naturally, hopelessly, hourly, hungrily, immediately, innocently, inquisitively, instantly, intensely, intently, interestingly, inwardly, irritably, jaggedly, jealously, jovially, joyfully, joyously, jubilantly, judgmentally, justly, keenly, kiddingly, kindheartedly, kindly, knavishly, knowingly, knowledgeably, kookily, lazily, less, lightly, likely, limply, lively, loftily, longingly, loosely, loudly, lovingly, loyally, madly, majestically, meaningfully, mechanically, merrily, miserably, mockingly, monthly, more, mortally, mostly, mysteriously, naturally, nearly, neatly, nervously, never, nicely, noisily, not, obediently, obnoxiously, oddly, offensively, officially, often, only, openly, optimistically, overconfidently, painfully, partially, patiently, perfectly, physically, playfully, politely, poorly, positively, potentially, powerfully, promptly, properly, punctually, quaintly, queasily, queerly, questionably, quicker, quickly, quietly, quirkily, quizzically, randomly, rapidly, rarely, readily, really, reassuringly, recklessly, regularly, reluctantly, repeatedly, reproachfully, restfully, righteously, rightfully, rigidly, roughly, rudely, safely, scarcely, scarily, searchingly, sedately, seemingly, seldom, selfishly, separately, seriously, shakily, sharply, sheepishly, shrilly, shyly, silently, sleepily, slowly, smoothly, softly, solemnly, solidly, sometimes, soon, speedily, stealthily, sternly, strictly, successfully, suddenly, supposedly, surprisingly, suspiciously, sweetly, swiftly, sympathetically, tenderly, tensely, terribly, thankfully, thoroughly, thoughtfully, tightly, tomorrow, too, tremendously, triumphantly, truly, truthfully, rightfully, scarcely, searchingly, sedately, seemingly, selfishly, separately, seriously, sheepishly, smoothly, solemnly, sometimes, speedily, stealthily, successfully, suddenly, supposedly, surprisingly, suspiciously, sympathetically, tenderly, thankfully, thoroughly, thoughtfully, tomorrow, tremendously, triumphantly, truthfully, ultimately, unabashedly, unaccountably, unbearably, unethically, unexpectedly, unfortunately, unimpressively, unnaturally, unnecessarily, upbeat, upright, upside-down, upward, urgently, usefully, uselessly, usually, utterly, vacantly, vaguely, vainly, valiantly, vastly, verbally, very, viciously, victoriously, violently, vivaciously, voluntarily, warmly, weakly, wearily, well, wetly, wholly, wildly, willfully, wisely, woefully, wonderfully, worriedly, wrongly, yawningly, yearly, yearningly, yesterday, yieldingly, youthfully, zealously, zestfully, zestily
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Prepositions</category>
+    <abbrev>preps</abbrev>
+    <ratings>
+      <Na>-0.065</Na>
+      <Ma>-0.030</Ma>
+      <Ps>-0.086</Ps>
+      <Op>-0.059</Op>
+      <Co>0.062</Co>
+      <Ex>-0.024</Ex>
+      <Ag>0.021</Ag>
+      <Ne>0.009</Ne>
+    </ratings>
+    <keywords>
+      aboard, behind, during, about, below, except, above, beneath, for, across, beside, from, after, besides, in, against, between, inside, along, beyond, into, among, but, like, around, by, near, at, concerning, of, before, down, off, on, throughout, until, out, till, up, over, to, upon, past, toward, with, since, under, within, through, underneath, without
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Conjunctions</category>
+    <abbrev>conj</abbrev>
+    <ratings>
+      <Na>-0.057</Na>
+      <Ma>0.031</Ma>
+      <Ps>-0.030</Ps>
+      <Op>-0.070</Op>
+      <Co>-0.085</Co>
+      <Ex>-0.056</Ex>
+      <Ag>-0.014</Ag>
+      <Ne>-0.109</Ne>
+    </ratings>
+    <keywords>
+      after, after which, and, as, as long as, as soon as, at which point, before, by the time, hardly, no sooner, now that, now, once, since, the moment, then, till, until, when, whenever, whereupon, while, and, and so, else, or else, otherwise, so, so that, although, apart from, but, despite, even if, even though, except that, in spite of, or, much as, nor, not that, though, whereas, while, whilst, yet, as, as a result of, because, because of, considering, due to, for, given that, in case, in view of the fact, that, just in case, on account of, seeing as, seeing that, since, in case, in order that, in order to, so, so as to, so that, to, as long as, even if, if, one condition that, provided, provided that, providing, providing that, so long as, unless, whether, as, as if, as though, in a way, in the way, just as, like, much as, the way, and, as well as, besides, besides which, in addition to, not only, for instance, for example, in particular
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Negations</category>
+    <abbrev>negate</abbrev>
+    <ratings>
+      <Na>-0.073</Na>
+      <Ma>0.068</Ma>
+      <Ps>0.034</Ps>
+      <Op>-0.080</Op>
+      <Co>-0.068</Co>
+      <Ex>-0.034</Ex>
+      <Ag>-0.069</Ag>
+      <Ne>-0.124</Ne>
+    </ratings>
+    <keywords>
+      No, not, never
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Quantifiers</category>
+    <abbrev>quant</abbrev>
+    <ratings>
+      <Na>-0.056</Na>
+      <Ma>0.010</Ma>
+      <Ps>-0.012</Ps>
+      <Op>-0.042</Op>
+      <Co>-0.064</Co>
+      <Ex>-0.045</Ex>
+      <Ag>-0.032</Ag>
+      <Ne>-0.085</Ne>
+    </ratings>
+    <keywords>
+no, some, both, few, little, several, enough, many, much, most, each, every, all, more, fewer, less, numerous, innumerable, always, mostly, mainly, frequently, often, seldom, never
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Numbers</category>
+    <abbrev>number</abbrev>
+    <ratings>
+      <Na>0.036</Na>
+      <Ma>0.064</Ma>
+      <Ps>0.030</Ps>
+      <Op>-0.043</Op>
+      <Co>0.082</Co>
+      <Ex>0.038</Ex>
+      <Ag>-0.046</Ag>
+      <Ne>0.117</Ne>
+    </ratings>
+    <keywords>
+      one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, tweenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, quarter, third, half,first, second, third, fourth, fifth, sixth, seventh, eigth, nineth, tenth, eleventh, twelveth, thirteenth, fifteenth, sixteenth, eighteenth, nineteenth, twentieth, thirtieth, fortieth, fiftieth, sixtieth, seventieth, eightieth, ninetieth, hundredth, thousand, million, billion, trillion
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Swear words</category>
+    <abbrev>swear</abbrev>
+    <ratings>
+      <Na>0.040</Na>
+      <Ma>0.129</Ma>
+      <Ps>0.187</Ps>
+      <Op>-0.028</Op>
+      <Co>-0.171</Co>
+      <Ex>0.025</Ex>
+      <Ag>-0.136</Ag>
+      <Ne>-0.097</Ne>
+    </ratings>
+    <keywords>
+Alcoholic, Amateur, Analphabet, Anarchist, Ape, Arse, Arselicker, Ass, Ass master, Ass-kisser, Ass-nugget, Ass-wipe, Asshole, Baby, Backwoodsman, Balls, Bandit, Barbar, Bastard, Bastard, Beavis, Beginner, Biest, Bitch, Blubber gut, Bogeyman, Booby, Boozer, Bozo, Brain-fart, Brainless, Brainy, Brontosaurus, Brownie, Bugger, Bugger, silly, Bulloks, Bum, Bum-fucker, Butt, Buttfucker, Butthead, Callboy, Callgirl, Camel, Cannibal, Cave man, Chaavanist, Chaot, Chauvi, Cheater, Chicken, Children fucker, Clit, Clown, Cock, Cock master, Cock up, Cockboy, Cockfucker, Cockroach, Coky, Con merchant, Con-man, Country bumpkin, Cow, Creep, Creep, Cretin, Criminal, Cunt, Cunt sucker, Daywalker, Deathlord, Derr brain, Desperado, Devil, Dickhead, Dinosaur, Disguesting packet, Diz brain, Do-Do, Dog, Dog, dirty, Dogshit, Donkey, Drakula, Dreamer, Drinker, Drunkard, Dufus, Dulles, Dumbo, Dummy, Dumpy, Egoist, Eunuch, Exhibitionist, Fake, Fanny, Farmer, Fart, Fart, shitty, Fatso, Fellow, Fibber, Fish, Fixer, Flake, Flash Harry, Freak, Frog, Fuck, Fuck face, Fuck head, Fuck noggin, Fucker, Gangster, Ghost, Goose, Gorilla, Grouch, Grumpy, Head, Hell dog, Hillbilly, Hippie, Homo, Homosexual, Hooligan, Horse fucker, Idiot, Ignoramus, Jack-ass, Jackass, Jerk, Joker, Junkey, Killer, Lard face, Lardass, Lard-ass, Latchkey child, Learner, Liar, Looser, Lucky, Lumpy, Luzifer, Macho, Macker, Man, old, Minx, Missing link, Monkey, Monster, Motherfucker, Mucky pub, Mutant, Neanderthal, Nerfhearder, Nobody, Nurd, Nuts, numb, Oddball, Oger, Oil dick, Old fart, Orang-Uthan, Original, Outlaw, Pack, Pain in the ass, Pavian, Pencil dick, Pervert, Pig, Piggy-wiggy, Pirate, Pornofreak, Prick, Prolet, Queer, Querulant, Rat, Rat-fink, Reject, Retard, Riff-Raff, Ripper, Roboter, Rowdy, Rufian, Sack, Sadist, Saprophyt, Satan, Scarab, Schfincter, Shark, Shit eater, Shithead, Simulant, Skunk, Skuz bag, Slave, Sleeze, Sleeze bag, Slimer, Slimy bastard, Small pricked, Snail, Snake, Snob, Snot, Son of a bitch , Square, Stinker, Stripper, Stunk, Swindler, Swine, Teletubby, Thief, Toilett cleaner, Tussi, Typ, Unlike, Vampir, Vandale, Varmit, Wallflower, Wanker, Wanker, bloody, Weeze Bag, Whore, Wierdo, Wino, Witch, Womanizer, Woody allen, Worm, Xena, Xenophebe, Xenophobe, XXX Watcher, Yak, Yeti, Zit face, Fuck, Blowjob, Cum, Jizz, Boner, Clit, Handjob, Poontang, Queef, Dildo, Rimjob, Feltch, Minge, Spooge, Smegma, Pecker, Pussy, Cock, Boobs, Piss, Cunt, Tits, Dick, Balls, Twat, Taint, Pubes, Prick, Hard-on, Turd, Nuts, Nutsack, Motherfucker, Asshole, Bullshit, Shitfaced, Cocksucker, Buttcrack, Clusterfuck, Douchebag, Dickhead, Dumbass, Fuckface, Shithead, Buttfuck, Dipshit, Asshat, Bumblefuck, Shit, Goddamn, Jesus Christ, Screw, Crap, Slut, Hell, Jagoff, Vag, Wank, Arse, Bugger, Cameltoe, Bollocks, Choad, Cabron, Pinche, Culo, Puto, Puta
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Social processes</category>
+    <abbrev>social</abbrev>
+    <ratings>
+      <Na>0.014</Na>
+      <Ma>-0.060</Ma>
+      <Ps>-0.050</Ps>
+      <Op>-0.007</Op>
+      <Co>-0.021</Co>
+      <Ex>0.101</Ex>
+      <Ag>0.096</Ag>
+      <Ne>-0.036</Ne>
+    </ratings>
+    <keywords>
+      Mate, talk, they, child 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Family</category>
+    <abbrev>family</abbrev>
+    <ratings>
+      <Na>0.008</Na>
+      <Ma>-0.036</Ma>
+      <Ps>-0.076</Ps>
+      <Op>0.012</Op>
+      <Co>-0.007</Co>
+      <Ex>0.041</Ex>
+      <Ag>0.102</Ag>
+      <Ne>-0.020</Ne>
+    </ratings>
+    <keywords>
+adoption, adoptive father, adoptive mother, ancestor, aunt, bachelor, birth mother, blood relative, bride, bridegroom, brother, brotherhood, brotherly, brother-in-law, care-giver, child, childhood, children, clan, close-knit, connection, cousin, dad, daddy, daughter, daughter-in-law, descendant, devoted, divorce, eligible, engaged, engagement, estranged, ex, ex husband, ex wife, extended family, faithful, family, family tree, father, father-in-law, fiancee, first born, first cousin, first cousin once removed, flesh and blood, folks, foster, foster child, foster father, foster mother, foster parent, fraternal, friend, foster child, foster parent, fraternal, fraternal twin, genealogy, grampa, gramps, grandchild, grandchildren, granddaughter, grandfather, grandma, grandmother, grandpa, grandparent, grandson, granny, great-granddaughter, great-grandfather, great-grandmother, great-grandparent, great-grandson, great-aunt, great-uncle, groom, grownup, half-brother, half-sister, heir, heiress, helpmate, hereditary, heritage, history, home, household, husband, identical twin, inherit, inheritance, infant, infancy, in-law, juvenile, kin, kindred, kinfolk, kinship, kith, lineage, love, loyalty, ma, maiden name, mama, marriage, mate, maternal, matriarch, matrimony, minor, Miss, mom, mommy, monogamy, mother, mother-in-law, Mr., Mrs., Ms., nana, natal, nephew, nest, newlywed, niece, nuclear family, nuptial, nurture, offspring, orphan, pa, papa, parent, partner, paternal, patriarch, pop, posterity, progenitor, progeny, quadruplets, quads, quints, quintuplets, related, relations, relative, second cousin, senior, separation, sibling, single, sister, sisterhood, sister-in-law, sisterly, son, son-in-law, spouse, stepbrother, stepchild, stepchildren, stepdad, stepdaughter, stepfather, stepmom, stepmother, stepsister, stepson, support, surrogate mother, tribe, triplets, trust, trustworthy, twin brother, twin sister, twins, uncle, value, wed, wedding, wedlock, wife, youngster, youth
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Friends</category>
+    <abbrev>friend</abbrev>
+    <ratings>
+      <Na>0.073</Na>
+      <Ma>-0.030</Ma>
+      <Ps>0.001</Ps>
+      <Op>0.048</Op>
+      <Co>-0.032</Co>
+      <Ex>0.121</Ex>
+      <Ag>0.069</Ag>
+      <Ne>-0.049</Ne>
+    </ratings>
+    <keywords>
+      Buddy, friend
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Affective processes</category>
+    <abbrev>affect</abbrev>
+    <ratings>
+      <Na>-0.038</Na>
+      <Ma>-0.062</Ma>
+      <Ps>-0.050</Ps>
+      <Op>-0.017</Op>
+      <Co>-0.009</Co>
+      <Ex>0.069</Ex>
+      <Ag>0.091</Ag>
+      <Ne>-0.095</Ne>
+    </ratings>
+    <keywords>
+      Happy, cried, abandon 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Positive emotion</category>
+    <abbrev>posemo</abbrev>
+    <ratings>
+      <Na>-0.020</Na>
+      <Ma>-0.118</Ma>
+      <Ps>-0.124</Ps>
+      <Op>0.006</Op>
+      <Co>0.077</Co>
+      <Ex>0.108</Ex>
+      <Ag>0.183</Ag>
+      <Ne>-0.042</Ne>
+    </ratings>
+    <keywords>
+Adored, Alignment, Alive, Allow, Amazing, Anticipation, Appreciation, Awesome, Basking, Beauty, Being, Blissful, Blooming, Bold, Bright, Brilliant, Calm, Cheerful, Confidence, Cherish, Clarity, Comfort, Courageous, Creative, Dance, Decisive, Delicious, Delightful, Discover, Divine, Dream, Dynamic, Eager, Ease, Easy, Embraced, Empowered, Energized, Enjoy, Enthusiasm, Fabulous, Flow, Fly, Focus, Freedom, Fresh, Frisky, Fun, Giggle, Glorious, Glowing, Good, Gorgeous, Gracious, Great, Gusto, Happy, Happiness, Harmonious, Harmony, Here, Hope, Hopeful, Huggable, Imagination, Infinite, Inspiration, Instantaneous, Intriguing, Invigorating, Inviting, Irresistible, Jazzed, Jolly, Journey, Jovial, Joyful, Joyous, Jubilant, Juicy, Kind, Kindness, Know, Knowing, Knowledge, Laughter, Life, Light, Lively, Lovely, Lovable, Luscious, Luxurious, Magical, Magnificent, Marvelous, Miraculous, Momentum, More, Move, Movement, Natural , New, Next, Noble, Now, One, Open, Opportunities, Optimism, Optimistic, Opulent, Original, Outstanding, Passionate, Peaceful, Playful, Pleasure, Positive, Powerful, Precious, Proud, Quality, Queenly, Quest, Quick, Quiet, Radiant, Ready, Receive, Refreshing, Relaxed, Relief, Renewed, Resilient, Satisfaction, Savor, Sensational, Soar, Soothe, Sparkle, Spectacular, Strong, Tender, Terrific, Thrilling, Thriving, Tranquil, Transformation, Trust, Truth, Ultimate, Unconditional, Unfolding, Unique, United, Universe, Unlimited, Uplifting, Valuable, Verve, Vibrant, Vision, Vitality, Vivacious, Vivid, Warm, Welcome, Well being, Whole, Wise, Wonderful, Worthy, Wow, eXciting, eXhilirating, eXpansion, eXpectation, eXperience, eXquisite, eXtraordinary, eXuberance, Yahoo, Yeah, Yes, Yippee, Yummy, Zany, Zeal, Zest, Zestful, Zesty, Zinger, Love, nice, sweet
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Negative emotion</category>
+    <abbrev>negemo</abbrev>
+    <ratings>
+      <Na>-0.023</Na>
+      <Ma>0.073</Ma>
+      <Ps>0.083</Ps>
+      <Op>-0.049</Op>
+      <Co>-0.135</Co>
+      <Ex>-0.027</Ex>
+      <Ag>-0.109</Ag>
+      <Ne>-0.138</Ne>
+    </ratings>
+    <keywords>
+      greedy, liar, phony, cheap, hateful, jealous, vindictive, controlling, nasty, possessive, bitchy, wimp, evil, geek, prudish, womanizer, angry, secretive, codependent, alcoholic, predator, drug addict, gambler, sick, fat, disgusting, stupid, idiot, fearful, unconscious, masochistic, bulimic, anorexic, unimportant, shyster, victimizer, egocentric, better than, foolish, emotional , pompous, ugly, sloppy, loud mouth, big mouth, passive-aggressive, smelly, lame, coward, jerk, inauthentic, offensive, inappropriate, wild, dead, zombie, late, irresponsible, incompetent, lazy, opportunist, lush, stingy, unfair, dumb, traitor, weasel, immature, gossip, snippy, desperate, childish, floozy, shrew, pansy, golddigger, hormonal, cruel, insensitive, scary , dangerous, explosive, perverted, psychotic, needy, energy sucker, mean, defensive, man-hater, sad, frail, impotent, insipid, castrated, mama’s boy, nervous, arrogant, miser, spinster, slut, deceitful, judgmental, imposter, superficial, violent, thoughtless, martyr, hypocrite, love buyer, sneak, grudge carrier, condescending, competitive, power hungry, wasteful, insane, sinister, bigot, white trash, anxious , stuck, hot shot, goofy, woman-hater, sadistic, nose picker, loser, worthless, failure, envious, critical, flabby, neglectful, whore, shameful, dirty, bitter, shameless, bossy, inflexible, old, cold, withdrawn, soulless, heartless, has been, cagey, resentful, racist, unenlightened, snob, elitist, faggot, dominating, sleazy, overbearing, bad, ignorant, thief, cheater, scammer, pushy, classless, trashy, devious, conniving , groupie, insecure, depressed, hopeless, good for nothing, beggar, whiney, asshole, ball buster, frugal, unlovable, delinquent, scared, hyper, nosy, intrusive, perfectionist, anal, know-it-all, ass-kisser, malicious, resentful, righteous, freak, useless, middle class, resistant, withholding, betrayer, inferior, destructive, thick-headed, confrontational, weak, impatient, full of shit, dyke, self-destructive, imperious, ruthless, oversensitive, pigheaded, tightass, tasteless, uninteresting, empty , diabolical, ridiculous, wretched, pain in the ass
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Anxiety</category>
+    <abbrev>anx</abbrev>
+    <ratings>
+      <Na>-0.054</Na>
+      <Ma>-0.021</Ma>
+      <Ps>-0.042</Ps>
+      <Op>-0.034</Op>
+      <Co>-0.056</Co>
+      <Ex>-0.014</Ex>
+      <Ag>-0.007</Ag>
+      <Ne>-0.179</Ne>
+    </ratings>
+    <keywords>
+afraid, apprehensive, careful, concerned, distressed, fearful, fidgety, jittery, nervous, restless, scared, uneasy, uptight, aghast, antsy, basket case, bugged, butterflies, choked, clutched, disquieted, disturbed, dreading, fretful, hacked, hyper, in a state, tizzy, suspense, jumpy, nervy, overwrought, shaking, shaky, shivery, shook up, shot to pieces, solicitous, spooked, strung out, sweating bullets, taut, troubled, unglued, unquiet, watchful, wired, worried sick, wreck
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Anger</category>
+    <abbrev>anger</abbrev>
+    <ratings>
+      <Na>0.004</Na>
+      <Ma>0.116</Ma>
+      <Ps>0.151</Ps>
+      <Op>-0.034</Op>
+      <Co>-0.144</Co>
+      <Ex>-0.016</Ex>
+      <Ag>-0.145</Ag>
+      <Ne>-0.103</Ne>
+    </ratings>
+    <keywords>
+      Acrimonious, Aggravated, Angered, Annoyed, Antagonistic, Antipathetic, Apoplectic, Ballistic, Bellicose, Belligerent, Bitter, Blue in the face, Boiling, Bristling, Burning, Caustic, Cheesed, Choleric, Churlish, Cold, Contrary, Cool, Embittered, Enraged, Exasperated, Fired up, Fit to be tied, Foaming, Frustrated, Fuming, Furious, Going crook, Hopping, Hopping mad, Horn-mad, Hostile, Hot, Hot under the collar, Icy, Incensed, Indignant, Inflamed, Infuriated, Irate, Ireful, Livid, Mad, Outraged, Perturbed, Pissed off, Rabid, Raging, Rancorous, Rankled, Ranting, Raving, Riled, Roiled, Seeing red, Seething, Shirty, Smoldering, Sore, Soreheaded, Steamed, Steaming, Storming, Stormy, Ticked, Vitriolic, Worked, Wrathful,e Wroth, Wrought up, Hate, kill, annoyed, Knackered
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Sadness</category>
+    <abbrev>sad</abbrev>
+    <ratings>
+      <Na>-0.038</Na>
+      <Ma>-0.024</Ma>
+      <Ps>-0.036</Ps>
+      <Op>-0.035</Op>
+      <Co>-0.078</Co>
+      <Ex>-0.009</Ex>
+      <Ag>-0.024</Ag>
+      <Ne>-0.111</Ne>
+    </ratings>
+    <keywords>
+      tearful, sorrowful, pained, grief, anguish, desolate, desperate, pessimistic, unhappy, lonely, grieved, mournful, dimayed, crying, cried, grief, sad
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Cognitive processes</category>
+    <abbrev>cogmech</abbrev>
+    <ratings>
+      <Na>-0.074</Na>
+      <Ma>0.010</Ma>
+      <Ps>-0.029</Ps>
+      <Op>-0.046</Op>
+      <Co>-0.090</Co>
+      <Ex>-0.061</Ex>
+      <Ag>-0.030</Ag>
+      <Ne>-0.099</Ne>
+    </ratings>
+    <keywords>
+define, describe, identify, know, label, list, match, name, outline, recall, recognize, reproduce, select, state, locate, illustrate, defend, compare, distinguish, estimate, explain, classify, generalize, interpret, paraphrase, predict, rewrite, summarize, translate, Implement, organize, dramatize, solve, construct, demonstrate, discover, manipulate, modify, operate, predict, prepare, produce, relate, show, solve, choose  analyze, break down, compare, select, contrast, deconstruct, discriminate, distinguishes, identify, outline rank, assess, monitor, check, test, judge, generate, plan, compose, develop, create, invent, organize, construct, produce, compile, design, devise, cause, know, ought 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Insight</category>
+    <abbrev>insight</abbrev>
+    <ratings>
+      <Na>-0.048</Na>
+      <Ma>-0.022</Ma>
+      <Ps>-0.042</Ps>
+      <Op>-0.001</Op>
+      <Co>-0.082</Co>
+      <Ex>-0.060</Ex>
+      <Ag>-0.008</Ag>
+      <Ne>-0.094</Ne>
+    </ratings>
+    <keywords>
+      think, know, consider 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Discrepancy</category>
+    <abbrev>discrep</abbrev>
+    <ratings>
+      <Na>-0.059</Na>
+      <Ma>0.012</Ma>
+      <Ps>-0.013</Ps>
+      <Op>-0.053</Op>
+      <Co>-0.069</Co>
+      <Ex>-0.024</Ex>
+      <Ag>-0.015</Ag>
+      <Ne>-0.094</Ne>
+    </ratings>
+    <keywords>
+      should, would, could 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Tentative</category>
+    <abbrev>tentat</abbrev>
+    <ratings>
+      <Na>-0.102</Na>
+      <Ma>0.020</Ma>
+      <Ps>-0.023</Ps>
+      <Op>-0.036</Op>
+      <Co>-0.088</Co>
+      <Ex>-0.081</Ex>
+      <Ag>-0.046</Ag>
+      <Ne>-0.078</Ne>
+    </ratings>
+    <keywords>
+      maybe, perhaps, guess 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Inclusive</category>
+    <abbrev>incl</abbrev>
+    <ratings>
+      <Na>0.004</Na>
+      <Ma>-0.015</Ma>
+      <Ps>-0.054</Ps>
+      <Op>-0.031</Op>
+      <Co>-0.001</Co>
+      <Ex>0.032</Ex>
+      <Ag>0.027</Ag>
+      <Ne>-0.016</Ne>
+    </ratings>
+    <keywords>
+      And, with, include 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Exclusive</category>
+    <abbrev>excl</abbrev>
+    <ratings>
+      <Na>-0.084</Na>
+      <Ma>0.044</Ma>
+      <Ps>-0.002</Ps>
+      <Op>-0.056</Op>
+      <Co>-0.100</Co>
+      <Ex>-0.062</Ex>
+      <Ag>-0.068</Ag>
+      <Ne>-0.110</Ne>
+    </ratings>
+    <keywords>
+      But, without, exclude 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Perceptual processes</category>
+    <abbrev>percept</abbrev>
+    <ratings>
+      <Na>-0.052</Na>
+      <Ma>-0.040</Ma>
+      <Ps>-0.092</Ps>
+      <Op>-0.015</Op>
+      <Co>-0.020</Co>
+      <Ex>-0.031</Ex>
+      <Ag>0.070</Ag>
+      <Ne>-0.089</Ne>
+    </ratings>
+    <keywords>
+      Heard, feeling
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>See</category>
+    <abbrev>see</abbrev>
+    <ratings>
+      <Na>-0.049</Na>
+      <Ma>-0.036</Ma>
+      <Ps>-0.082</Ps>
+      <Op>-0.043</Op>
+      <Co>0.038</Co>
+      <Ex>-0.004</Ex>
+      <Ag>0.062</Ag>
+      <Ne>-0.039</Ne>
+    </ratings>
+    <keywords>
+see, make out, spot, witness, glimpse, pick out, catch, observe, fall verb, view, saw, seen
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Biological processes</category>
+    <abbrev>bio</abbrev>
+    <ratings>
+      <Na>0.001</Na>
+      <Ma>0.009</Ma>
+      <Ps>0.012</Ps>
+      <Op>-0.026</Op>
+      <Co>-0.066</Co>
+      <Ex>0.023</Ex>
+      <Ag>0.014</Ag>
+      <Ne>-0.136</Ne>
+    </ratings>
+    <keywords>
+      Eat, blood, pain 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Body</category>
+    <abbrev>body</abbrev>
+    <ratings>
+      <Na>0.006</Na>
+      <Ma>0.053</Ma>
+      <Ps>0.066</Ps>
+      <Op>-0.021</Op>
+      <Co>-0.077</Co>
+      <Ex>0.017</Ex>
+      <Ag>-0.029</Ag>
+      <Ne>-0.112</Ne>
+    </ratings>
+    <keywords>
+      Cheek, hands, spit 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Health</category>
+    <abbrev>health</abbrev>
+    <ratings>
+      <Na>-0.005</Na>
+      <Ma>-0.032</Ma>
+      <Ps>-0.019</Ps>
+      <Op>0.007</Op>
+      <Co>-0.010</Co>
+      <Ex>-0.005</Ex>
+      <Ag>0.032</Ag>
+      <Ne>-0.106</Ne>
+    </ratings>
+    <keywords>
+Abnormal, Abstinence, Ache, Active, Activit, Acupuncture, Addictive, Aerobic, Aids, Alcohol, Allergy, Anemia, Anorexia, Antidote, Anxiety, Appetite, Athlete, Athletics, Authentic, Bacteria, Beauty, Bend, Blood, Blood Pressure, Body, Bones, Breath, Breathe, Calcium, Calorie, Cardiac, Cereal, Circulation, Clean, Component, Conditioning, Courage, Crouch, Cuisine, Culinary, Cure, Dangerous, Deadly, Decision, Defect, Dehydration, Depression, Diagnostic, Diet, Diner, Dinner, Disability, Discipline, Disease, Dish, Disorder, Doctor, Drinking, Drug, Eatery, Eating, Emotional, Energy, Enforc, Epidemic, Equipment, Erect, Exercise, Family, Fast Food, Ferment, Fit, Flex, Flexible, Folic Acid, Fracture, Fruit, Gain, Genetics, Gland, Goal, Grayness, Grip, Guideline, Gymnasium, Harmful, Headache, Health, Healthy, Herb, High Blood Pressure, HIV, Homemade, Hone, Hormone, Hungry, Hygiene, Hygienic, Immunity, Immunization, Improvement, Inactivity, Increase, Infancy, Infection, Infirm, Influenza, Ingredient, Inherent, Injury, Insulin, Integrity, Intimacy, Iron, Jargon, Jog, Joint, Judge, Jump, Kinesiology, Kinesis, Kinesthesia, Kinetic, Laziness, Lifestyle, Limit, Living, Lose, Loss, Lumbar, Massage, Masseur, Medical, Medication, Medicine, Memory, Mental Health, Metabolic, Method, Minimize, Mixture, Moisture, Mood, Movement, Muscle, Muscular, Nauseous, Nemesis, Nicotine, Nurse, Nutrient, Nutrition, Obesity, Obstacle, Offensive, Olfactory, Opt, Optimism, Option, Ossification, Outbreak, Outstanding, Override, Overweight, Panacea, Panic, Paraffin, Participation, Perspiration, Pessimism, Petrify, Pharmacy, Physiotherapy, Pilate, Pollution, Popularity, Portion, Positioning, Positive, Possibility, Potent, Power, Practice, Pregnancy, Prenata, Preserve, Pressure, Prevention, Protect, Protection, Prowess, Psychology, Pulley, Puncture, Pyramid, Quad, Quick, Quiver, Radiation, Rebound, Recognition, Record, Recovery, Recreation, Regimen, Rehabilitation, Relationship, Relaxation, Research, Reserve, Resilient, Resistance, Respiration, Response, Restoration, Risk, Rivalry, Role, Routine, Rush, Safety, Sanitary, Sauce, Savvy, Scare, Scenario, Scoreboard, Scoring, Senile, Sensible, Sex, Shape Up, Shot, Sibling, Signal, Size, Sizzle, Skill, Skin, Sleep, Slide, Smog, Smoking, Smorgasbord, Specialty, Speculation, Speed, Spice, Spicy, Spirit, Sportsmanship, Spring, Squad, Squat, Stabilit, Stamina, Staple, Starve, Starving, Stimulate, Strategy, Strength, Stress, Strong, Struggle, Superstition, Support, Suspension, Swimming, Symptom, System, Tackle, Temptation, Tension, Terror, Testing, Therapeutic, Therapy, Time Out, Timing, Tobacco, Tone, Torso, Transplant, Trauma, Treatment, Tremor, Trend, Ultrasound, Unhealthy, Vaccination, Valiant, Valor, Vault, Vegetable, Vibration, Victory, Virus, Vitamin, Vulnerable, Walking, Warm Up, Watchful, Weigh, Weight, Wince, Winless, Winning, Wisdom, Witness, Work, XRayYoga, Zeal, ZstZinc, Zon, Clinic, flu, pill, hospital, emergemcy room, pregnant     
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Sexual</category>
+    <abbrev>sexual</abbrev>
+    <ratings>
+      <Na>0.068</Na>
+      <Ma>0.030</Ma>
+      <Ps>0.051</Ps>
+      <Op>0.029</Op>
+      <Co>-0.083</Co>
+      <Ex>0.082</Ex>
+      <Ag>0.008</Ag>
+      <Ne>-0.156</Ne>
+    </ratings>
+    <keywords>
+ass, blow job, bonk, buggery, climax, coitus, coupling, cybersex, ejaculation, encounter, free love, fuck, gang bang, gang bang, hanky-panky, intercourse, intimacy, lovemaking, ménage à trois, the missionary position, nookie, one-night stand, oral sex, orgasm, penetration, phone sex, pillow talk, position, potency, quickie, romp, safe sex, screw, sex life, sexual intercourse, sodomy, threesome, union, copulation, fornication, sensuality, in the sack, sexual relations, the birds and the bees, the facts of life, turned on, vagina, gender, intercourse, sexual, genital, sexuality, steroid, masculine, sexed, stimulation, androgenic, arouse, excite, germ, hormone, reproductive, sex activity, sexes, sexing, sexual activity, sexual urge, turn on, wind up, male, coitus, congress, relation, coition, copulation, sex act, carnal knowledge, sexual congress, sexual intercourse, sexual relation, transsexual, unsex, asexual, gamete, love, androgen, estrogen, oestrogen, unisexual, breeding, homoeroticism, homosexuality, oomph, primary sex character, primary sex characteristic, procreation, reproduction, screw, secondary sex character, secondary sex characteristic, testosterone, androgenic hormone, bisexuality, crotch, epigamic, fornicate, fornication, fuck, gayness, genitals, genital organ, genitalia, heterosexualism, heterosexuality, homosexualism, lechery, private parts, privates, sex-linked, sex chromosome, sex hormone, sexless, sixty-nine, straightness, take, x chromosome, y chromosome, adultery, arousal, autoeroticism, autoerotism, bed, bestiality, carnal abuse, conception, conjugation, coupling, criminal congress, criminal conversation, cybersex, desirability, desirableness, female internal reproductive organ, femaleness, feminineness, foreplay, genophobia, horny, love, incest
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Relativity</category>
+    <abbrev>relativ</abbrev>
+    <ratings>
+      <Na>-0.028</Na>
+      <Ma>0.021</Ma>
+      <Ps>-0.059</Ps>
+      <Op>-0.060</Op>
+      <Co>0.088</Co>
+      <Ex>0.019</Ex>
+      <Ag>0.021</Ag>
+      <Ne>0.006</Ne>
+    </ratings>
+    <keywords>
+      Area, bend, exit, stop 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Motion</category>
+    <abbrev>motion</abbrev>
+    <ratings>
+      <Na>-0.020</Na>
+      <Ma>-0.008</Ma>
+      <Ps>-0.060</Ps>
+      <Op>-0.029</Op>
+      <Co>0.075</Co>
+      <Ex>0.046</Ex>
+      <Ag>0.055</Ag>
+      <Ne>0.000</Ne>
+    </ratings>
+    <keywords>
+      Arrive, car, go
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Time</category>
+    <abbrev>time</abbrev>
+    <ratings>
+      <Na>-0.050</Na>
+      <Ma>0.041</Ma>
+      <Ps>-0.063</Ps>
+      <Op>-0.070</Op>
+      <Co>0.061</Co>
+      <Ex>-0.005</Ex>
+      <Ag>0.026</Ag>
+      <Ne>-0.054</Ne>
+    </ratings>
+    <keywords>
+      End, until, season
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Work</category>
+    <abbrev>work</abbrev>
+    <ratings>
+      <Na>-0.006</Na>
+      <Ma>-0.046</Ma>
+      <Ps>-0.077</Ps>
+      <Op>-0.009</Op>
+      <Co>0.061</Co>
+      <Ex>-0.015</Ex>
+      <Ag>-0.016</Ag>
+      <Ne>0.048</Ne>
+    </ratings>
+    <keywords>
+      Job, majors, Xerox 
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Death</category>
+    <abbrev>death</abbrev>
+    <ratings>
+      <Na>0.021</Na>
+      <Ma>0.039</Ma>
+      <Ps>0.094</Ps>
+      <Op>0.050</Op>
+      <Co>-0.070</Co>
+      <Ex>-0.051</Ex>
+      <Ag>-0.085</Ag>
+      <Ne>-0.003</Ne>
+    </ratings>
+    <keywords>
+      Bury, coffin, kill
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Assent</category>
+    <abbrev>assent</abbrev>
+    <ratings>
+      <Na>0.011</Na>
+      <Ma>0.013</Ma>
+      <Ps>0.038</Ps>
+      <Op>0.024</Op>
+      <Co>-0.067</Co>
+      <Ex>0.060</Ex>
+      <Ag>0.016</Ag>
+      <Ne>-0.125</Ne>
+    </ratings>
+    <keywords>
+      Agree, OK, yes
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Nonfluencies</category>
+    <abbrev>nonfl</abbrev>
+    <ratings>
+      <Na>-0.023</Na>
+      <Ma>-0.027</Ma>
+      <Ps>0.005</Ps>
+      <Op>-0.008</Op>
+      <Co>-0.041</Co>
+      <Ex>0.051</Ex>
+      <Ag>-0.015</Ag>
+      <Ne>-0.041</Ne>
+    </ratings>
+    <keywords>
+      Er, hm, umm
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Fillers</category>
+    <abbrev>filler</abbrev>
+    <ratings>
+      <Na>0.035</Na>
+      <Ma>0.102</Ma>
+      <Ps>0.073</Ps>
+      <Op>0.000</Op>
+      <Co>-0.121</Co>
+      <Ex>-0.024</Ex>
+      <Ag>-0.066</Ag>
+      <Ne>-0.127</Ne>
+    </ratings>
+    <keywords>
+      Blah, Imean, youknow
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Total Punctuation</category>
+    <abbrev>AllPct</abbrev>
+    <ratings>
+      <Na>0.043</Na>
+      <Ma>-0.039</Ma>
+      <Ps>-0.031</Ps>
+      <Op>0.093</Op>
+      <Co>0.028</Co>
+      <Ex>0.000</Ex>
+      <Ag>0.055</Ag>
+      <Ne>0.024</Ne>
+    </ratings>
+    <keywords>
+
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Exclam</category>
+    <abbrev>Exclam</abbrev>
+    <ratings>
+      <Na>0.018</Na>
+      <Ma>-0.003</Ma>
+      <Ps>-0.054</Ps>
+      <Op>-0.016</Op>
+      <Co>0.050</Co>
+      <Ex>0.107</Ex>
+      <Ag>0.104</Ag>
+      <Ne>-0.011</Ne>
+    </ratings>
+    <keywords>
+      !
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Dash</category>
+    <abbrev>Dash</abbrev>
+    <ratings>
+      <Na>-0.006</Na>
+      <Ma>-0.052</Ma>
+      <Ps>-0.025</Ps>
+      <Op>0.046</Op>
+      <Co>0.042</Co>
+      <Ex>-0.057</Ex>
+      <Ag>0.045</Ag>
+      <Ne>0.048</Ne>
+    </ratings>
+    <keywords>
+      -
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Quote</category>
+    <abbrev>Quote</abbrev>
+    <ratings>
+      <Na>0.057</Na>
+      <Ma>0.020</Ma>
+      <Ps>-0.035</Ps>
+      <Op>0.050</Op>
+      <Co>-0.055</Co>
+      <Ex>-0.098</Ex>
+      <Ag>-0.020</Ag>
+      <Ne>-0.034</Ne>
+    </ratings>
+    <keywords>
+      “”
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>Apostro</category>
+    <abbrev>Apostro</abbrev>
+    <ratings>
+      <Na>-0.088</Na>
+      <Ma>0.012</Ma>
+      <Ps>-0.022</Ps>
+      <Op>-0.028</Op>
+      <Co>-0.101</Co>
+      <Ex>-0.085</Ex>
+      <Ag>-0.017</Ag>
+      <Ne>-0.129</Ne>
+    </ratings>
+    <keywords>
+      ‘
+    </keywords>
+  </entry>
+
+
+  <entry>
+    <category>OtherP</category>
+    <abbrev>OtherP</abbrev>
+    <ratings>
+      <Na>0.070</Na>
+      <Ma>-0.015</Ma>
+      <Ps>0.016</Ps>
+      <Op>0.051</Op>
+      <Co>0.046</Co>
+      <Ex>0.062</Ex>
+      <Ag>0.033</Ag>
+      <Ne>0.060</Ne>
+    </ratings>
+    <keywords>
+      @, #
+    </keywords>
+  </entry>
+
+
+</pesonality_scores>
