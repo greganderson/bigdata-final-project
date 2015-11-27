@@ -29,10 +29,6 @@ def update_ratings(category, num):
                 print "Could not parse" + \
                     category[e.value][1] + "as number"
 
-def split_words(s):
-    word_list = s.split(' ')
-    return word_list
-
 def check_personality(str):
     map(lambda category: check_personality1(str, category, dtweet), list_of_cats)
 
