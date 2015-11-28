@@ -50,7 +50,7 @@ b = a.filter(lambda x: x['text'] != None)		# Filter out non-tweets
 # Compute the rating for an individual tweet
 loc_n_text =  map_to_count(b.first())
 
-print rate_tweet(loc_n_text[1])
+print (loc_n_text[0], rate_tweet(loc_n_text[1]))
 
 
 ### 
