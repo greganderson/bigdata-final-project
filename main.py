@@ -1,6 +1,15 @@
 from pyspark.sql import SQLContext
+from pyspark import SparkContext, SparkConf
+from personality_calc import rate_tweet
 
 filename = 'output.txt'
+
+conf = SparkConf()
+conf.setMaster("local[4]")
+conf.setAppName("reduce")
+conf.set("spark.executor.memory", "4g")
+
+sc = SparkContext(conf=conf)
 
 sqlContext = SQLContext(sc)
 f = sqlContext.jsonFile(filename)
@@ -22,8 +31,27 @@ def split_words(s, words):
 	word_list = s['text'].split(' ')
 	return (s['user'].asDict()['screen_name'], map(lambda x: 1 if x.lower() in words else 0, word_list))
 
-a = f.map(lambda x: x.asDict())					# Turn JSON output into dictionary
+def map_to_count(s):
+	word_list = s['text'].split(' ')
+	result_d = dict([])
+	for word in word_list:
+		word = word.lower()
+		if(word in result_d):
+			result_d[word] += 1
+		else:
+			result_d[word] = 1
+	return (s['coordinates'], result_d)
+
+
+a = f.map(lambda x: x.asDict())				# Turn JSON output into dictionary
 b = a.filter(lambda x: x['text'] != None)		# Filter out non-tweets
+
+
+# Compute the rating for an individual tweet
+loc_n_text =  map_to_count(b.first())
+
+print rate_tweet(loc_n_text[1])
+
 
 ### 
 ### TODO This code just needs to be repeated for each category.  Not sure how to do that yet though
@@ -34,6 +62,9 @@ c = b.map(lambda x: split_words(x, narcissism))	# Map user to a list of points f
 d = c.map(lambda lst: (lst[0], reduce(lambda x, y: x+y, lst[1])))	# Add up points for each tweet
 e = d.reduceByKey(lambda x, y: x+y)				# Gather all of the scores for each user
 g = e.filter(lambda x: x[1] > 3)				# Show only those that had more points than 3
+
+
+
 
 ### In the works
 for category in categories:
