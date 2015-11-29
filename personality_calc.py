@@ -58,18 +58,3 @@ def rate_tweet(dict_tweet):
             ('na', 0), ('ma', 0), ('ps', 0), ('op', 0), \
                 ('co', 0), ('ex', 0), ('ag', 0), ('ne', 0)])
     return rate_tweet_w_usr_rating(dict_tweet, rtng)
-    
-# User's personality rating
-#uuu_userRatng = dict([
-#        ('na', 0), ('ma', 0), ('ps', 0), ('op', 0), \
-#            ('co', 0), ('ex', 0), ('ag', 0), ('ne', 0)]) # Shoud come from Greg's code
-
-#tweet = "I am a fake tweet. She went swimming on the lake, we went swimming on the lake"
-#tweet = "today was a fun day"
-
-#tttweet = tweet.lower().split(' ')
-
-# Tweet should come in, in the form of (word, word_count)
-#ddd_dtweet = dict.fromkeys(tttweet, 1) # Should come from Gregs code
-
-#print rate_tweet(ddd_dtweet)
