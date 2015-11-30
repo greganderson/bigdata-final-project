@@ -24,23 +24,23 @@ def update_ratings(category, num):
         if(e is not pers.lst):
             try:                   
                 increase = num * float(category[e.value][1])
-                userRatng[e.name] = increase;
+                userRatng[e.name] = increase
             except ValueError:
                 print "Could not parse" + \
                     category[e.value][1] + "as number"
 
-def check_personality(str):
-    map(lambda category: check_personality1(str, category, dtweet), list_of_cats)
+def check_personality(string):
+    map(lambda category: check_personality1(string, category, dtweet), list_of_cats)
 
-def check_personality1(str, category, dict_tweet):
-    word = str.lower() 
+def check_personality1(string, category, dict_tweet):
+    word = string.lower() 
     words = map(lambda x: x.lower(), category[pers.lst.value])
 
     if word in words and word in dict_tweet:
         update_ratings(category, dict_tweet[word])
-        return True;
+        return True
     else:
-        return False;
+        return False
 
 def rate_tweet_w_usr_rating(dict_tweet, usr_Ratings):
 
@@ -54,7 +54,7 @@ def rate_tweet_w_usr_rating(dict_tweet, usr_Ratings):
     return userRatng
 
 def rate_tweet(dict_tweet):
-    rtng = dict([
+    rating = dict([
             ('na', 0), ('ma', 0), ('ps', 0), ('op', 0), \
                 ('co', 0), ('ex', 0), ('ag', 0), ('ne', 0)])
-    return rate_tweet_w_usr_rating(dict_tweet, rtng)
+    return rate_tweet_w_usr_rating(dict_tweet, rating)
