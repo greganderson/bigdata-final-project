@@ -30,8 +30,13 @@ def map_to_count(s):
 	#return (s['place'].asDict()['bounding_box'].asDict()['coordinates'][0][0], result_d)
 
 
+def toCSVLine(data):
+	return ','.join(str(d) for d in data)
+
+
+
 a = f.map(lambda x: x.asDict())				# Turn JSON output into dictionary
-b = a.filter(lambda x: x['text'] != None)		# Filter out non-tweets
+b = a.filter(lambda x: x['text'] != None and x['coordinates'] != None)		# Filter out non-tweets
 
 
 # Store {location : tweet text} for all tweets
@@ -39,3 +44,6 @@ loc_n_text = b.map(map_to_count)
 
 # Store {location : score} for all tweets
 loc_n_score = loc_n_text.map(lambda x: (x[0], rate_tweet(x[1])))
+
+lines = loc_n_score.map(toCSVLine)
+lines.saveAsTextFile('BAM.csv')
