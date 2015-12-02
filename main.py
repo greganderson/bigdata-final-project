@@ -31,7 +31,8 @@ def map_to_count(s):
 
 
 def toCSVLine(data):
-	return ','.join(str(d) for d in data)
+	return str(a[0][0]) + ',' + str(a[0][1]) + ',' + ''.join(str(d) + ',' + str(e) for d,e in a[1].items)
+	#return ','.join(str(d) for d in data)
 
 
 
