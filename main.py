@@ -26,12 +26,13 @@ def map_to_count(s):
 			result_d[word] = 1
 	# TODO: Is this the best way to get the coordinates?
 	#return (s['coordinates'], result_d)
-	return (s['coordinates'].asDict()['coordinates'], result_d)
+	#return (s['coordinates'].asDict()['coordinates'], result_d)
+	return (s['place'].asDict()['full_name'], result_d)
 	#return (s['place'].asDict()['bounding_box'].asDict()['coordinates'][0][0], result_d)
 
 
 def toCSVLine(data):
-	return str(a[0][0]) + ',' + str(a[0][1]) + ',' + ''.join(str(d) + ',' + str(e) for d,e in a[1].items)
+	return str(data[0][0]) + ',' + str(data[0][1]) + ',' + ''.join(str(d) + ',' + str(e) for d,e in data[1].items)
 	#return ','.join(str(d) for d in data)
 
 
