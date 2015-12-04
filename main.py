@@ -29,7 +29,7 @@ def map_to_count(s):
 
 def toCSVLine(data):
 	try:
-		result = ',' + str(data[0]) + ',' + ','.join(str(c) for c in data[1].values()) + ',\n'
+		result = str(data[0]) + ',' + ','.join(str(c) for c in data[1].values()) + ',\n'
 	except:
 		return 'BLAMO'
 	return result
