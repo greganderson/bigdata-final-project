@@ -24,21 +24,19 @@ def map_to_count(s):
 			result_d[word] += 1
 		else:
 			result_d[word] = 1
-	# TODO: Is this the best way to get the coordinates?
-	#return (s['coordinates'], result_d)
-	#return (s['coordinates'].asDict()['coordinates'], result_d)
 	return (s['place'].asDict()['full_name'], result_d)
-	#return (s['place'].asDict()['bounding_box'].asDict()['coordinates'][0][0], result_d)
 
 
 def toCSVLine(data):
-	return str(data[0][0]) + ',' + str(data[0][1]) + ',' + ''.join(str(d) + ',' + str(e) for d,e in data[1].items)
-	#return ','.join(str(d) for d in data)
-
+	try:
+		result = ',' + str(data[0]) + ',' + ','.join(str(c) for c in data[1].values()) + ',\n'
+	except:
+		return 'BLAMO'
+	return result
 
 
 a = f.map(lambda x: x.asDict())				# Turn JSON output into dictionary
-b = a.filter(lambda x: x['text'] != None and x['coordinates'] != None)		# Filter out non-tweets
+b = a.filter(lambda x: x['text'] != None and x['place'] != None and x['place'].asDict()['full_name'] != None)		# Filter out non-tweets
 
 
 # Store {location : tweet text} for all tweets
