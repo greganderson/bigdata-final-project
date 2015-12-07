@@ -15,6 +15,7 @@ sqlContext = SQLContext(sc)
 f = sqlContext.jsonFile(filename)
 
 
+# Get the location and map it to the word count of the tweet
 def map_to_count(s):
 	word_list = s['text'].split(' ')
 	result_d = dict([])
@@ -27,6 +28,7 @@ def map_to_count(s):
 	return (s['place'].asDict()['full_name'], result_d)
 
 
+# Convert to CSV
 def toCSVLine(data):
 	try:
 		result = str(data[0]) + ',' + ','.join(str(c) for c in data[1].values()) + ',\n'
