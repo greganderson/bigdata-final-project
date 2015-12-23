@@ -1,4 +1,22 @@
 # bigdata-final-project
+
+--------------
+### How to run
+In order to run this project, you have to run it line by line in a PySpark
+interactive shell.  It was setup this way for a very important purpose.  Skip
+the lines that are setting up Spark.
+
+This is a link to download the Twitter data we used:
+https://drive.google.com/open?id=0BwF4i4E17vT4d29YR2dtM01vX0k
+
+Unzip this file for use in the program.  After that everything should run just
+fine.
+
+
+---------------
+### Description
+
+
 Final project for my Big Data Computer Systems class.
 
 Our project aims to determine a user's personality based on the contents of
