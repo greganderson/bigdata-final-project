@@ -16,7 +16,8 @@ class pers(Enum):
     lst = 9
 
 # The list of all of the available categories
-list_of_cats = get_categories()
+#list_of_cats = get_categories()
+list_of_cats = None
 
 
 def update_ratings(category, num):
@@ -53,7 +54,9 @@ def rate_tweet_w_usr_rating(dict_tweet, usr_Ratings):
     map(check_personality, dtweet)
     return userRatng
 
-def rate_tweet(dict_tweet):
+def rate_tweet(dict_tweet, categories):
+    global list_of_cats
+    list_of_cats = categories
     rating = dict([
             ('na', 0), ('ma', 0), ('ps', 0), ('op', 0), \
                 ('co', 0), ('ex', 0), ('ag', 0), ('ne', 0)])

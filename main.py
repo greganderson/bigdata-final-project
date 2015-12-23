@@ -1,6 +1,7 @@
 from pyspark.sql import SQLContext
 from pyspark import SparkContext, SparkConf
 from personality_calc import rate_tweet
+from xml_parser import get_categories 
 
 filename = 'output.txt'
 
@@ -44,8 +45,10 @@ b = a.filter(lambda x: x['text'] != None and x['place'] != None and x['place'].a
 # Store {location : tweet text} for all tweets
 loc_n_text = b.map(map_to_count)
 
+list_of_cats = get_categories()
+
 # Store {location : score} for all tweets
-loc_n_score = loc_n_text.map(lambda x: (x[0], rate_tweet(x[1])))
+loc_n_score = loc_n_text.map(lambda x: (x[0], rate_tweet(x[1], list_of_cats)))
 
 lines = loc_n_score.map(toCSVLine)
 lines.saveAsTextFile('BAM.csv')
